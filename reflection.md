@@ -22,4 +22,4 @@ Examples:
 **Best Reflection** "I learned when to use while vs for loops. While loops are for sentiel-controlled values (waiting for a condition to occur), vs for loops are for iterating over collections of fixed values."
 
 `--- Reflection Below This Line ---`
-
+Working on this web scraping assignment, I had challenges with the Python import system I kept getting lost in the directory. The menuitemextractor.py file had an import statement trying to access MenuItem from "code.menuitem" when it should have been importing directly from "menuitem" since both files were in the same directory. Even though I tried to fix this import problem, I had issues with file paths and correctly saving the CSV file to the expected location. 
