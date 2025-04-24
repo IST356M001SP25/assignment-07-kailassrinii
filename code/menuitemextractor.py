@@ -7,7 +7,9 @@ else:
 
 
 def clean_price(price:str) -> float:
-    pass # TODO  replace with code
+    price = price.replace('$', '')
+    price = price.replace(',', '')
+
 
 def clean_scraped_text(scraped_text: str) -> list[str]:
     pass # TODO  replace with code
